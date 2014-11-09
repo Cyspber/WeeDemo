@@ -14,6 +14,7 @@
 		86AE4E671A0F6C860006C20F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AE4E661A0F6C860006C20F /* Images.xcassets */; };
 		86AE4E6A1A0F6C860006C20F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86AE4E681A0F6C860006C20F /* LaunchScreen.xib */; };
 		86AE4E761A0F6C860006C20F /* WeeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AE4E751A0F6C860006C20F /* WeeDemoTests.m */; };
+		86AE4E811A0F6D020006C20F /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AE4E801A0F6D020006C20F /* FileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		86AE4E6F1A0F6C860006C20F /* WeeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AE4E741A0F6C860006C20F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86AE4E751A0F6C860006C20F /* WeeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeeDemoTests.m; sourceTree = "<group>"; };
+		86AE4E7F1A0F6D020006C20F /* FileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
+		86AE4E801A0F6D020006C20F /* FileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				86AE4E5E1A0F6C860006C20F /* AppDelegate.m */,
 				86AE4E601A0F6C860006C20F /* ViewController.h */,
 				86AE4E611A0F6C860006C20F /* ViewController.m */,
+				86AE4E7F1A0F6D020006C20F /* FileViewController.h */,
+				86AE4E801A0F6D020006C20F /* FileViewController.m */,
 				86AE4E631A0F6C860006C20F /* Main.storyboard */,
 				86AE4E661A0F6C860006C20F /* Images.xcassets */,
 				86AE4E681A0F6C860006C20F /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				86AE4E621A0F6C860006C20F /* ViewController.m in Sources */,
 				86AE4E5F1A0F6C860006C20F /* AppDelegate.m in Sources */,
+				86AE4E811A0F6D020006C20F /* FileViewController.m in Sources */,
 				86AE4E5C1A0F6C860006C20F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
